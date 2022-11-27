@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* navigation bar codes ------------------------------------------------------------------------ */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    padding: 30px;
+    background-color: #270082;
+    position: sticky;
+}
+
+.mytunestext{
+    font-size: 40px;
+    font-weight: 700; 
+    padding-left: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: x-large;
+    padding-top: 13px;
+}
+
+/* navigaton ends----------------------------------------------------------------------------------------------------- */
+
+
+
+/* card codes start here------------------------------------------------------------- */
+
+
+.cardkabaap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.card{
+    justify-self: center;
+    background-color: aqua;
+    width: 30vw;
+    border-radius: 20px;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text{
+    font-size: large;
+}
+
+
+
+.upcard{
+    background-image: url(songimages/jeena.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: inherit;
+}
+
+.upcard marquee{
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+
+
+.downcard audio{
+    padding-top: 5px;
+    width: 30vw;
+}
+
+/* card codes finish here------------------------------------------------------------------------------ */
+
+
+
+/* ------------------------------------------------footer -----------------------------------------------*/
+
+
+.footerup{
+    height: 80px;
+    background-color: #270082;
+    color: white;
+    display: flex;
+    gap: 130px;
+    font-size: larger;
+    padding: 130px;
+    padding-top: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.footerdown{
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #281154;
+    color: white;
+}
